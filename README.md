@@ -1,5 +1,4 @@
-To create a more formal and clear README section for a GitHub repository based on your instructions, it could be structured as follows:
-Configuration and Setup Instructions
+Configuration and Setup Instructions:
 
 This section provides step-by-step instructions for configuring and setting up the necessary components for the application. Ensure you have the following prerequisites installed on your server: Nginx/Apache, PHP 8.1, and MariaDB 10.4.
 Database Configuration
