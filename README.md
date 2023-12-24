@@ -20,7 +20,7 @@ Webhook Setup
 
     Navigate to the Sellix dashboard and create a new webhook.
     Specify the webhook URL, pointing to the .../ipn path on your server.
-    Open the file global/ipn/index.php.
+    Open the file global/ipn
     Update the secret key for the webhook:
         webhook_secret: Enter the secret key provided by Sellix.
 
