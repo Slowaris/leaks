@@ -30,3 +30,16 @@ Ensure your server meets the following requirements:
     Web Server: Nginx or Apache
     PHP Version: 8.1 (important)
     Database: MariaDB 10.4
+
+
+Remove .php extension:
+
+//Nginx
+
+    location / {
+        try_files $uri $uri/ @extensionless-php;
+    }
+
+    location @extensionless-php {
+        rewrite ^(.*)$ $1.php last;
+    }
